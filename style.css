@@ -69,6 +69,7 @@ body{
 .current-info .others .weather-item{
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 .future-forecast {
     background: rgba(24,24,27,0.8);
