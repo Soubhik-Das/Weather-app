@@ -53,6 +53,9 @@ function getWeatherData() {
                         <div id="humidty">Wind Speed</div>
                         <div>${data.current.wind_kph+'kph'}</div>
                     </div>`
+                    timeZone.innerHTML=`
+                        ${data.location.name+'/'}${data.location.region}
+                    `
 
                 })
                 .catch((error) => {
