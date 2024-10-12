@@ -165,6 +165,11 @@ body{
     .place-container .time-zone{
         font-size: 15px;
     }
+    .place-container .country{
+        font-size: 8px;
+        font-weight: 400;
+        color: #000000;
+    }
 
     .current-info .others{
         padding: 12px;
